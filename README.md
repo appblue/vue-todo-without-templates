@@ -3,7 +3,10 @@
 ## Running this app
 
 >
-> **Note**: Below text is taken from the blog post: `https://markus.oberlehner.net/blog/goodbye-webpack-building-vue-applications-without-webpack/`, and serves as a rationale and documentation (mainly treated as a note to myslef) for the steps taken to migrate example Vue.js 2.x TODO Application to dev setup with `browser-sync`
+> **Note**: Below text is taken from the blog post: `https://markus.oberlehner.net/blog/goodbye-webpack-building-vue-applications-without-webpack/`, and serves as a rationale and documentation (mainly treated as a note to myslef) for the steps taken to migrate example Vue.js 2.x TODO Application to dev setup:
+> * with `browser-sync`
+> * without webpack
+> * without Templates (.vue) files
 >
 
 First of all, let me say this: webpack is excellent! Developing JavaScript applications would look quite different if it wasn’t for webpack. But often, it feels pretty foreign to me, having to set up a quite complicated build process to build a rather simple JavaScript app.
